@@ -2,7 +2,7 @@
 
 ## Challenge
 
-Pada challange ini diberikan sebuah (file zip)[www.google.com] yang jika diextract terdapat sebuah document. Namun isinya sama sekali kosong.
+Pada challange ini diberikan sebuah (file zip)[https://github.com/Jenusdy/write-ups/blob/master/born-to-protect-round-2/secret-doc/secret_doc_7ebbb414ab345363f06fb94e636a50d1.zip] yang jika diextract terdapat sebuah document. Namun isinya sama sekali kosong.
 
 ## Solution
 

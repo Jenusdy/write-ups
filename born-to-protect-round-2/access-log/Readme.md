@@ -2,7 +2,7 @@
 
 ## Challenge
 
-Diberikan sebuah (file zip)[www.google.com] yang jika di extact akan memberikan sebuah file access.log.
+Diberikan sebuah [file zip](https://github.com/Jenusdy/write-ups/blob/master/born-to-protect-round-2/acces-log/access_ba7d4aedf98cf15b92c9cbd3a62ee498.zip) yang jika di extact akan memberikan sebuah file access.log.
 
 ## Solution
 
@@ -16,18 +16,22 @@ Pada bagian ini saya coba ubah
 
 ```
 String.fromCharCode%28102%2C+108%2C+97%2C+103%2C+32%2C+105%2C+115%2C+32%2C+66%2C+50%2C+80%2C+123%2C+53%2C+48%2C+102%2C+49%2C+101%2C+97%2C+55%2C+99%2C+102%2C+49%2C+53%2C+52%2C+52%2C+49%2C+48%2C+54%2C+101%2C+51%2C+53%2C+53%2C+53%2C+99%2C+52%2C+99%2C+99%2C+50%2C+99%2C+102%2C+52%2C+48%2C+56%2C+55%2C+125%29
+```
+
 
 Didecode ke utf-8
 
+```
 String.fromCharCode(102,+108,+97,+103,+32,+105,+115,+32,+66,+50,+80,+123,+53,+48,+102,+49,+101,+97,+55,+99,+102,+49,+53,+52,+52,+49,+48,+54,+101,+51,+53,+53,+53,+99,+52,+99,+99,+50,+99,+102,+52,+48,+56,+55,+125)
+```
 
 Hapus semua tanda + nya 
 
+```
 String.fromCharCode(102,108,97,103,32,105,115,32,66,50,80,123,53,48,102,49,101,97,55,99,102,49,53,52,52,49,48,54,101,51,53,53,53,99,52,99,99,50,99,102,52,48,56,55,125)
-
+```
 
 Pada console web browser kita coba paste kan lalu Viola... 
 
 "flag is B2P{50f1ea7cf1544106e3555c4cc2cf4087}"
-```
 
